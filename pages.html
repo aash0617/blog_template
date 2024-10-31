@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Room Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(backdrop.avif);
+      background-size: cover;
+      color: aliceblue;
+      
+    }
+    .price-table {
+      width: 350px;
+      border-collapse: collapse;
+      box-shadow: 4px 4px 12px;
+    }
+    .price-table th, .price-table td {
+      padding: 20px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    .price-table th {
+      background-color:rgb(224, 198, 135);
+      color:black;
+      font-weight: bold;
+    }
+    .price-table tr:nth-child(even) {
+      background-color: #c6acac;
+      color: black;
+    }
+    h1{
+        font-size: 70px;
+        text-align: center;
+        text-decoration: underline;
+        margin-right: 100px;
+        
+        
+    }
+    
+
+  </style>
+</head>
+<body>
+
+    
+<h1>Price Chart !!</h1>
+<table class="price-table">
+  <thead>
+    <tr>
+      <th>Room Type</th>
+      <th>Price (₹) / Night</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Single Room</td>
+      <td>₹2000 / night</td>
+    </tr>
+    <tr>
+      <td>Double Room</td>
+      <td>₹3500 / night</td>
+    </tr>
+    <tr>
+      <td>Suite</td>
+      <td>₹6500 / night</td>
+    </tr>
+    <tr>
+      <td>Deluxe Room</td>
+      <td>₹9000 / night</td>
+    </tr>
+    <tr>
+      <td>Master Bedroom</td>
+      <td>₹12000 / night</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
